@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original artwork for this app, released CC0 / public domain -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="@color/cat_queue" android:pathData="M24,24m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0"/>
+    <path android:fillColor="#FFFFFF" android:strokeColor="#FFFFFF" android:strokeWidth="1" android:pathData="M9,16 L21,16 L21,22 L9,22 Z M24,16 L33,16 L33,22 L24,22 Z M9,26 L18,26 L18,32 L9,32 Z M21,26 L39,26 L39,32 L21,32 Z"/>
+</vector>

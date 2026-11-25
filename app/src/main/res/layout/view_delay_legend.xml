@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/delayLegend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/legend_title"
+        android:textSize="12sp" />
+
+    <View android:layout_width="12dp" android:layout_height="12dp" android:layout_marginStart="8dp"
+        android:background="@color/delay_short" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="4dp" android:text="@string/legend_short" android:textSize="12sp" />
+
+    <View android:layout_width="12dp" android:layout_height="12dp" android:layout_marginStart="12dp"
+        android:background="@color/delay_long" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="4dp" android:text="@string/legend_long" android:textSize="12sp" />
+
+    <View android:layout_width="12dp" android:layout_height="12dp" android:layout_marginStart="12dp"
+        android:background="@color/delay_very_long" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="4dp" android:text="@string/legend_very_long" android:textSize="12sp" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Same legend as view_delay_legend, but stacked vertically so it fits the narrow landscape map panel -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/delayLegend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/legend_title"
+        android:textSize="12sp" />
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <View android:layout_width="12dp" android:layout_height="12dp" android:background="@color/delay_short" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="6dp" android:text="@string/legend_short" android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <View android:layout_width="12dp" android:layout_height="12dp" android:background="@color/delay_long" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="6dp" android:text="@string/legend_long" android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <View android:layout_width="12dp" android:layout_height="12dp" android:background="@color/delay_very_long" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="6dp" android:text="@string/legend_very_long" android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

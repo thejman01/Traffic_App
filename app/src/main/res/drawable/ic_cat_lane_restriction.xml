@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original artwork for this app, released CC0 / public domain -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="@color/cat_lane" android:pathData="M24,24m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0"/>
+    <path android:fillColor="#FFFFFF" android:strokeColor="#FFFFFF" android:strokeWidth="1" android:pathData="M14,34 L14,14 L19,14 L19,34 Z M29,34 L29,14 L34,14 L34,34 Z"/>
+</vector>

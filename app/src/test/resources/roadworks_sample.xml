@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soapenv:Body>
+<d2LogicalModel modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datex2.eu/schema/2/2_0 http://datex2.eu/schema/2/2_3/DATEXIISchema_2_2_3.xsd">
+ <exchange>
+  <supplierIdentification>
+   <country>gb</country>
+   <nationalIdentifier>TrafficScotland</nationalIdentifier>
+  </supplierIdentification>
+ </exchange>
+ <payloadPublication xsi:type="SituationPublication" lang="eng">
+  <publicationTime>2026-08-31T10:37:26+01:00</publicationTime>
+  <publicationCreator>
+   <country>gb</country>
+   <nationalIdentifier>TrafficScotland</nationalIdentifier>
+  </publicationCreator>
+ 
+  <situation id="D_159301_S" version="1">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="MaintenanceWorks" id="D_159301" version="1">
+    <situationRecordCreationReference>D_159301</situationRecordCreationReference>
+    <situationRecordCreationTime>2023-04-05T07:30:06+01:00</situationRecordCreationTime>
+    <situationRecordVersionTime>2026-06-25T17:43:07+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2026-06-25T17:43:07+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <source>
+     <sourceIdentification>TrafficScotland</sourceIdentification>
+     <sourceName>
+  	<values>
+  	 <value lang="en">TrafficScotland</value>
+  	</values>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </source>
+    <validity>
+     <validityStatus>definedByValidityTimeSpec</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2023-07-22T00:00:00+01:00</overallStartTime>
+      <overallEndTime>2027-12-31T23:59:00+00:00</overallEndTime>
+     </validityTimeSpecification>
+    </validity>
+    <impact>
+     <delays>
+      <delaysType>longDelays</delaysType>
+     </delays>
+    </impact>
+    <generalPublicComment>
+     <comment>
+      <values>
+       <value lang="en">M8 WB Woodside - A804 Phoenix Rd - Closure</value>
+      </values>
+     </comment>
+    </generalPublicComment>
+    <groupOfLocations xsi:type="Linear">
+      <tpegLinearLocation>
+       <tpegDirection>westBound</tpegDirection>
+       <tpegLinearLocationType>segment</tpegLinearLocationType>
+       <to xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.87038</latitude>
+         <longitude>-4.268265</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (Jct 18 Off Slip to Entry A82)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </to>
+       <from xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.869923</latitude>
+         <longitude>-4.261365</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (A81 Underpass to Jct 18 Off Slip)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </from>
+      </tpegLinearLocation>
+    </groupOfLocations>
+    <urgentRoadworks>false</urgentRoadworks>
+    <roadMaintenanceType>roadworks</roadMaintenanceType>
+   </situationRecord>
+  </situation>
+  <situation id="D_159302_S" version="1">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="MaintenanceWorks" id="D_159302" version="1">
+    <situationRecordCreationReference>D_159302</situationRecordCreationReference>
+    <situationRecordCreationTime>2023-04-05T07:30:06+01:00</situationRecordCreationTime>
+    <situationRecordVersionTime>2026-06-25T17:43:07+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2026-06-25T17:43:07+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <source>
+     <sourceIdentification>TrafficScotland</sourceIdentification>
+     <sourceName>
+  	<values>
+  	 <value lang="en">TrafficScotland</value>
+  	</values>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </source>
+    <validity>
+     <validityStatus>definedByValidityTimeSpec</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2023-07-22T00:00:00+01:00</overallStartTime>
+      <overallEndTime>2027-12-31T23:59:00+00:00</overallEndTime>
+     </validityTimeSpecification>
+    </validity>
+    <impact>
+     <delays>
+      <delaysType>longDelays</delaysType>
+     </delays>
+    </impact>
+    <generalPublicComment>
+     <comment>
+      <values>
+       <value lang="en">M8 Woodside - A804 Phoenix Rd EB - Closure</value>
+      </values>
+     </comment>
+    </generalPublicComment>
+    <groupOfLocations xsi:type="Linear">
+      <tpegLinearLocation>
+       <tpegDirection>eastBound</tpegDirection>
+       <tpegLinearLocationType>segment</tpegLinearLocationType>
+       <to xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.869946</latitude>
+         <longitude>-4.264995</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (Eb On Slip to Entry From A82)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </to>
+       <from xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.870399</latitude>
+         <longitude>-4.268234</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (Jct 18 Off Slip to Entry A82)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </from>
+      </tpegLinearLocation>
+    </groupOfLocations>
+    <urgentRoadworks>false</urgentRoadworks>
+    <roadMaintenanceType>roadworks</roadMaintenanceType>
+   </situationRecord>
+  </situation>
+  <situation id="D_159303_S" version="1">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="MaintenanceWorks" id="D_159303" version="1">
+    <situationRecordCreationReference>D_159303</situationRecordCreationReference>
+    <situationRecordCreationTime>2023-04-05T07:30:06+01:00</situationRecordCreationTime>
+    <situationRecordVersionTime>2026-06-25T17:43:07+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2026-06-25T17:43:07+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <source>
+     <sourceIdentification>TrafficScotland</sourceIdentification>
+     <sourceName>
+  	<values>
+  	 <value lang="en">TrafficScotland</value>
+  	</values>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </source>
+    <validity>
+     <validityStatus>definedByValidityTimeSpec</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2023-07-22T00:00:00+01:00</overallStartTime>
+      <overallEndTime>2027-12-31T23:59:00+00:00</overallEndTime>
+     </validityTimeSpecification>
+    </validity>
+    <impact>
+     <delays>
+      <delaysType>longDelays</delaysType>
+     </delays>
+    </impact>
+    <generalPublicComment>
+     <comment>
+      <values>
+       <value lang="en">M8 Woodside - A804 M8 WB Spur - Closure</value>
+      </values>
+     </comment>
+    </generalPublicComment>
+    <groupOfLocations xsi:type="Linear">
+      <tpegLinearLocation>
+       <tpegDirection>westBound</tpegDirection>
+       <tpegLinearLocationType>segment</tpegLinearLocationType>
+       <to xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.869325</latitude>
+         <longitude>-4.266477</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (Wb Off Slip to Wb Entry Slip)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </to>
+       <from xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.869693</latitude>
+         <longitude>-4.264069</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (Wb Off Slip to Wb Entry Slip)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </from>
+      </tpegLinearLocation>
+    </groupOfLocations>
+    <urgentRoadworks>false</urgentRoadworks>
+    <roadMaintenanceType>roadworks</roadMaintenanceType>
+   </situationRecord>
+  </situation>
+  <situation id="D_163444_S" version="1">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="MaintenanceWorks" id="D_163444" version="1">
+    <situationRecordCreationReference>D_163444</situationRecordCreationReference>
+    <situationRecordCreationTime>2023-05-30T09:25:27+01:00</situationRecordCreationTime>
+    <situationRecordVersionTime>2026-02-04T12:47:49+00:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2026-02-04T12:47:49+00:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <source>
+     <sourceIdentification>TrafficScotland</sourceIdentification>
+     <sourceName>
+  	<values>
+  	 <value lang="en">TrafficScotland</value>
+  	</values>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </source>
+    <validity>
+     <validityStatus>definedByValidityTimeSpec</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2021-03-12T18:00:00+00:00</overallStartTime>
+      <overallEndTime>2027-06-30T11:59:00+01:00</overallEndTime>
+     </validityTimeSpecification>
+    </validity>
+    <impact>
+     <delays>
+      <delaysType>longDelays</delaysType>
+     </delays>
+    </impact>
+    <generalPublicComment>
+     <comment>
+      <values>
+       <value lang="en">M8 WB JCT 15 On Slip Stirling Rd - Slip Closure</value>
+      </values>
+     </comment>
+    </generalPublicComment>
+    <groupOfLocations xsi:type="Linear">
+      <tpegLinearLocation>
+       <tpegDirection>westBound</tpegDirection>
+       <tpegLinearLocationType>segment</tpegLinearLocationType>
+       <to xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.869276</latitude>
+         <longitude>-4.242195</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8MONKLANDS</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8MONKLANDS (J16 West Face Of Footbridge to 115m East Of Kyle Street Footbridge)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </to>
+       <from xsi:type="TpegNonJunctionPoint">
+        <pointCoordinates>
+         <latitude>55.866662</latitude>
+         <longitude>-4.236722</longitude>
+        </pointCoordinates>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>linkName</tpegOtherPointDescriptorType>
+        </name>
+        <name>
+         <descriptor>
+          <values>
+           <value lang="en">M8 (A803 Exit to Entry Wb M8)</value>
+          </values>
+         </descriptor>
+         <tpegOtherPointDescriptorType>nonLinkedPointName</tpegOtherPointDescriptorType>
+        </name>
+       </from>
+      </tpegLinearLocation>
+    </groupOfLocations>
+    <urgentRoadworks>false</urgentRoadworks>
+    <roadMaintenanceType>roadworks</roadMaintenanceType>
+   </situationRecord>
+  </situation>
+ 
+ </payloadPublication>
+</d2LogicalModel>
+</soapenv:Body>
+</soapenv:Envelope>

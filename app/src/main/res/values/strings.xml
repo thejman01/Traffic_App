@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Scotland Traffic</string>
+
+    <string name="nav_incidents">Incidents</string>
+    <string name="nav_roadworks">Roadworks</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_map">Map</string>
+
+    <string name="action_refresh">Refresh now</string>
+    <string name="action_interval">Auto-update interval</string>
+    <string name="action_about">About / credits</string>
+
+    <string name="select_item_hint">Select an item from the list to see its details</string>
+    <string name="empty_list">No situations to show</string>
+    <string name="show_on_map">Show on map</string>
+    <string name="show_all">Show all</string>
+    <string name="show_results_on_map">Show results on map</string>
+
+    <string name="mode_road">By road</string>
+    <string name="mode_nearby">Near me</string>
+    <string name="scope_all">All</string>
+    <string name="scope_incidents">Incidents</string>
+    <string name="scope_roadworks">Roadworks</string>
+    <string name="hint_road">Road name, e.g. M8, A74(M), A90</string>
+    <string name="use_my_location">Use my location</string>
+    <string name="use_fixed_location">Use fixed location</string>
+    <string name="search_prompt_road">Type a road name (for example M8) to find incidents and roadworks on it</string>
+    <string name="legend_title">Delays:</string>
+    <string name="legend_short">Delays</string>
+    <string name="legend_long">Long</string>
+    <string name="legend_very_long">Very long</string>
+    <string name="attribution">Contains Traffic Scotland data</string>
+    <string name="about_text">Contains Traffic Scotland data (Transport Scotland), used under the module\'s data agreement.\n\nIcons: original vector artwork drawn for this app by the author and released CC0 / public domain.\n\nMaps: Google Maps SDK for Android.</string>
+</resources>

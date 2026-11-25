@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#00796B</color>
+    <color name="brand_dark">#004D40</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="surface_grey">#F5F5F5</color>
+    <color name="text_secondary">#666666</color>
+
+    <!-- colour coding of delays caused by roadworks -->
+    <color name="delay_none">#B0BEC5</color>
+    <color name="delay_short">#FBC02D</color>
+    <color name="delay_long">#F57C00</color>
+    <color name="delay_very_long">#C62828</color>
+
+    <!-- one colour per category icon (also used for map lines) -->
+    <color name="cat_closed">#D32F2F</color>
+    <color name="cat_lane">#F57C00</color>
+    <color name="cat_queue">#7B1FA2</color>
+    <color name="cat_slow">#FBC02D</color>
+    <color name="cat_roadworks">#1E88E5</color>
+    <color name="cat_roadworks_closure">#37474F</color>
+    <color name="cat_other">#607D8B</color>
+
+    <color name="banner_ok">#E8F5E9</color>
+    <color name="banner_offline">#FFF3CD</color>
+    <color name="banner_error">#FDE2E1</color>
+    <color name="banner_loading">#E3F2FD</color>
+    <color name="launcher_background">#00796B</color>
+</resources>

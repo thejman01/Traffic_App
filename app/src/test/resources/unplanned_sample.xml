@@ -1,0 +1,57 @@
+junk-before<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soapenv:Body>
+<d2LogicalModel modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <payloadPublication xsi:type="SituationPublication" lang="eng">
+  <publicationTime>2026-08-31T09:58:26+01:00</publicationTime>
+  <situation id="I_20260810_248_S" version="1">
+   <headerInformation><confidentiality>noRestriction</confidentiality><informationStatus>real</informationStatus></headerInformation>
+   <situationRecord xsi:type="RoadOrCarriagewayOrLaneManagement" id="I_20260810_248" version="10">
+    <situationRecordCreationTime>2026-08-10T11:38:10+01:00</situationRecordCreationTime>
+    <situationRecordVersionTime>2026-08-24T18:25:33+01:00</situationRecordVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <source><sourceIdentification>TrafficScotland</sourceIdentification><sourceName><values><value lang="en">TrafficScotland</value></values></sourceName><sourceType>roadAuthorities</sourceType></source>
+    <validity><validityStatus>definedByValidityTimeSpec</validityStatus><validityTimeSpecification><overallStartTime>2026-08-10T11:37:42+01:00</overallStartTime></validityTimeSpecification></validity>
+    <impact><numberOfOperationalLanes>0</numberOfOperationalLanes></impact>
+    <generalPublicComment><comment><values><value lang="en">The A74M(S) junction 19 (Ecclefechan) off slip is closed to allow for essential roadworks.</value></values></comment></generalPublicComment>
+    <groupOfLocations xsi:type="Linear"><tpegLinearLocation>
+       <tpegDirection>southBound</tpegDirection><tpegLinearLocationType>segment</tpegLinearLocationType>
+       <to xsi:type="TpegJunction"><pointCoordinates><latitude>55.065432</latitude><longitude>-3.273135</longitude></pointCoordinates>
+        <name><descriptor><values><value lang="en">J19</value></values></descriptor><tpegJunctionPointDescriptorType>junctionName</tpegJunctionPointDescriptorType></name>
+        <ilc><descriptor><values><value lang="en">A74(M)</value></values></descriptor><tpegIlcPointDescriptorType>tpegIlcName1</tpegIlcPointDescriptorType></ilc>
+        <otherName><descriptor><values><value lang="en">A74(M) J19 Eaglesfield</value></values></descriptor><tpegOtherPointDescriptorType>intersectionName</tpegOtherPointDescriptorType></otherName>
+       </to>
+       <from xsi:type="TpegJunction"><pointCoordinates><latitude>55.103477</latitude><longitude>-3.349595</longitude></pointCoordinates>
+        <name><descriptor><values><value lang="en">J18</value></values></descriptor><tpegJunctionPointDescriptorType>junctionName</tpegJunctionPointDescriptorType></name>
+        <ilc><descriptor><values><value lang="en">A74(M)</value></values></descriptor><tpegIlcPointDescriptorType>tpegIlcName1</tpegIlcPointDescriptorType></ilc>
+        <otherName><descriptor><values><value lang="en">A74(M) J18 Ecclefechan</value></values></descriptor><tpegOtherPointDescriptorType>intersectionName</tpegOtherPointDescriptorType></otherName>
+       </from>
+    </tpegLinearLocation></groupOfLocations>
+    <complianceOption>mandatory</complianceOption>
+    <roadOrCarriagewayOrLaneManagementType>roadClosed</roadOrCarriagewayOrLaneManagementType>
+   </situationRecord>
+  </situation>
+  <situation id="I_20260831_129_S" version="1">
+   <situationRecord xsi:type="AbnormalTraffic" id="I_20260831_129" version="4">
+    <validity><validityStatus>definedByValidityTimeSpec</validityStatus><validityTimeSpecification><overallStartTime>2026-08-31T09:11:14+01:00</overallStartTime></validityTimeSpecification></validity>
+    <impact><numberOfLanesRestricted>2</numberOfLanesRestricted></impact>
+    <generalPublicComment><comment><values><value lang="en">2 lanes restricted Eastbound</value></values></comment></generalPublicComment>
+    <someFutureUnknownElement><x>1</x></someFutureUnknownElement>
+    <groupOfLocations xsi:type="Linear"><tpegLinearLocation>
+       <tpegDirection>eastBound</tpegDirection>
+       <to xsi:type="TpegJunction"><pointCoordinates><latitude>55.866017</latitude><longitude>-4.271415</longitude></pointCoordinates>
+        <name><descriptor><values><value lang="en">J18</value></values></descriptor><tpegJunctionPointDescriptorType>junctionName</tpegJunctionPointDescriptorType></name>
+        <ilc><descriptor><values><value lang="en">M8</value></values></descriptor><tpegIlcPointDescriptorType>tpegIlcName1</tpegIlcPointDescriptorType></ilc>
+        <otherName><descriptor><values><value lang="en">M8 J18 Charing Cross</value></values></descriptor><tpegOtherPointDescriptorType>intersectionName</tpegOtherPointDescriptorType></otherName>
+       </to>
+       <from xsi:type="TpegJunction"><pointCoordinates><latitude>55.863112</latitude><longitude>-4.270558</longitude></pointCoordinates>
+        <ilc><descriptor><values><value lang="en">M8</value></values></descriptor><tpegIlcPointDescriptorType>tpegIlcName1</tpegIlcPointDescriptorType></ilc>
+       </from>
+    </tpegLinearLocation></groupOfLocations>
+    <abnormalTrafficType>queuingTraffic</abnormalTrafficType>
+   </situationRecord>
+  </situation>
+ </payloadPublication>
+</d2LogicalModel>
+</soapenv:Body>
+</soapenv:Envelope>
